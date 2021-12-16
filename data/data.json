@@ -1,0 +1,50 @@
+{
+    "data": [{
+            "id": "1",
+            "titulo": "San Carlos de Bariloche",
+            "descripcion": "Bariloche es el destino más visitado de la Patagonia y uno de los destinos más visitados de la Argentina. Sus reservas naturales, que incluyen lagos, bosques y montañas, y sus destacados centros de esquí son el principal atractivo.",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/View_from_the_Golf_course_at_Llao_Llao.jpg/1280px-View_from_the_Golf_course_at_Llao_Llao.jpg"
+            
+        },
+        {
+            "id": "2",
+            "nombre": "Ushuaia",
+            "descripcion": "Ushuaia es la puerta a la Antártida -no se puede estar más al sur en el sur-. A las orillas del Canal de Beagle y dominada por los más lindos pingüinos, en la ciudad no faltan ni los paisajes patagónicos ni manjares en su gastronomía. Subite a bordo del Tren del Fin del Mundo, las historias de los guías sobre los presidiarios y el recorrido por el bosque parecen sacadas de un cuento. Comé todo: centolla, merluza negra y cordero te esperan regalarte más que felicidad. Dejá tierra firme y explorá sus islas arriba de un catamarán, el espectáculo visual no solo quedará guardado en tu cámara.",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/View_from_the_Golf_course_at_Llao_Llao.jpg/1280px-View_from_the_Golf_course_at_Llao_Llao.jpg",
+            "hoteles": [{
+                "nombre": "Las Hayas Ushuaia Resort",
+                "descripción": "Las Hayas Ushuaia Resort está localizado en medio del bosque y dispone de parque con vista panorámica al Canal de Beagle. Se ubica a 3 km del Glaciar Martial y a 4 km de la ciudad de Ushuaia. Ofrece piscina cubierta climatizada y dos hidromasajes.",
+                "imagen": "https://media.staticontent.com/media/pictures/f91b2fde-a7e9-445c-b86a-74298b51f1e8/853x0?op=NONE&enlarge=false&gravity=ce_0_0&quality=80&dpr=1.5"
+            },
+            {
+                "nombre": "Villa Brescia Hotel",
+                "descripción": "Villa Brescia es un hotel situado en San Martin, la avenida comercial de Ushuaia, que ofrece desayuno americano y recepción 24h con servicio de información turística",              
+                "imagen": "https://media.staticontent.com/media/pictures/b50d9e40-c573-4bbb-8600-b19d84489d9b/853x0?op=NONE&enlarge=false&gravity=ce_0_0&quality=80&dpr=1.5"
+            }
+        ]
+        },
+        {
+            "id": "3",
+            "nombre": "Mar del Plata",
+            "descripcion": "Está localizada en el corredor turístico costero de Buenos Aires. Su gran ventaja es que está sobre el Mar Argentino, por eso tiene un litoral marítimo de más de 28 kilómetros.  Al sur y al centro de la ciudad están las playas marplatenses más recurridas.",
+            "imagen": "https://imgs-akamai.mnstatic.com/b5/8a/b58a47aa20f66d3a80b98a2edc74637a.jpg."
+            
+        },
+
+        {
+            "id": "4",
+            "nombre": "Cataratas del Iguazú",
+            "descripcion": "Las Cataratas del Iguazú son formadas por las caídas del río Iguazú, palabra que significa agua grande en tupi-guaraní.Formadas por el río Iguazú a 23 km antes de su desembocadura, se ubican en la frontera con el nordeste de Argentina, al sur de la ciudad de Foz do Iguaçu en Paraná, dentro del área de preservación del Parque Nacional del Iguazú.",
+            "imagen": "https://media.staticontent.com/media/pictures/995b27ad-d533-466a-8fc2-00050bc7b032/1366x406"
+            
+        },
+
+        {
+            "id": "5",
+            "nombre": "Parque Nacional Nahuel Huapi",
+            "descripcion": "Se trata del Parque Nacional más antiguo de Argentina, decretado como tal en el año 1903, lo que, por supuesto, lo convierte en una visita obligada si vacacionas en Río Negro. Este parque, conformado por unas 705.000 hectáreas, se encuentra entre las provincias de Neuquén y Río Negro.",
+            "imagen": "https://www.lugaresturisticosdeargentina.com/wp-content/uploads/2021/01/Parque-Nacional-Nahuel-Huapi.jpg"
+
+        }
+    ]
+}
