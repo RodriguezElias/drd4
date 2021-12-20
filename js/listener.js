@@ -1,6 +1,6 @@
-const tourBtn = document.querySelector("#obtener-tour");
-const verMasBtn = document.querySelector("#ver-más");
+const tourTour = document.querySelector("#obtener-Tour");
+const verMasBtn = document.querySelector("#ver-mas");
 
 tourBtn.addEventListener("click", recorrerListadoYRenderizarTarjetas);
-verMasBtn.addEventListener("mouseenter", mostrarYOcultarDescripcionCompleta);
-verMasBtn.addEventListener("mouseleave", mostrarYOcultarDescripcionCompleta);
+/* verMasBtn.addEventListener("mouseenter", mostrarYOcultarDescripcionCompleta);
+verMasBtn.addEventListener("mouseleave", mostrarYOcultarDescripcionCompleta); */
