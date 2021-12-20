@@ -259,7 +259,7 @@ form.form_contact textarea {
   max-height: 90px;
 }
 
-form.form_contact input[type="button"] {
+.botonEnviar {
   width: 180px;
   background: #213988fb;
   padding: 10px;
@@ -275,7 +275,7 @@ form.form_contact input[type="button"] {
   cursor: pointer;
 }
 
-form.form_contact input[type="button"]:hover {
+.botonEnviar:hover {
   background: #e98109;
 }
 

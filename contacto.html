@@ -47,26 +47,21 @@
         </section>
       </section>
 
-      <form action="" id="form_contact" class="form_contact">
+      <form action="" id="form_contact" method="post" class="form_contact">
         <h2>INFORMACION</h2>
         <div id="user_info" class="user_info">
-          <label for="Nombre">Nombre </label>
-          <input type="Nombre" name="nombre" id="nombre" required />
-
-          <label for="Apellido">Apellido </label>
-          <input type="Apellido" name=" apellido" id="apellido" required />
-
-          <label for="Telefono">Telefono / Celular</label>
-          <input type="Telefono" name="telefono" id="telefono" required />
-
-          <label for="email">Correo electronico </label>
-          <input type="email" name=" email" id="email" required />
-
-          <label for="Mensaje">Mensaje </label>
-          <textarea type="textarea" name="mensaje" id="mensaje"></textarea>
-
-          <input type="button" value="Enviar Mensaje" id="btnSend" required />
-        </div>
+            <label for="Nombre">Nombre </label>
+            <input type="Nombre" name="nombre" id="nombre">
+            <label for="Apellido">Apellido </label>
+            <input type="Apellido" name=" apellido" id="apellido" >
+            <label for="Telefono">Telefono / Celular</label>
+            <input type="Telefono" name="telefono" id="telefono" >
+            <label for="email">Correo electronico </label>
+            <input type="email" name=" email" id="email" >
+            <label for="Mensaje">Mensaje </label>
+            <textarea type="textarea" name="mensaje" id="mensaje"></textarea>
+            <button type="submit" class="botonEnviar">Enviar Mensaje</button>
+        </div>   
       </form>
     </main>
     <footer>
@@ -113,7 +108,6 @@
           </div>
   </footer>
     <!-- js main -->
-    <script src="js/main.js"></script>
-    <script src="js/data.js"></script>
+    <script src="/js/mail.js"></script>
   </body>
 </html>
