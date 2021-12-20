@@ -23,7 +23,7 @@
             "provincia": "Santa fe",
             "region": "Litoral",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a6/7b/de/la-sala-delle-vasche.jpg?w=1000&h=800&s=1",
-            "descripcion": "Las visitas están a cargo de guías especializados y tienen una duración aproximada de 1 hora 30 minutos y 1 hora 40 minutos.  El recorrido guiado comienza en el Parque Autóctono, el espacio público que bordea el río con una pequeña laguna y una forestación que invita a descubrir los principales ambientes naturales del humedal litoraleño.",
+            "descripcion": "El recorrido guiado comienza en el Parque Autóctono, el espacio público que bordea el río con una pequeña laguna y una forestación que invita a descubrir los principales ambientes naturales del humedal litoraleño.",
             "precio": "3000 ARS por persona"
         },
         {
@@ -77,7 +77,7 @@
             "provincia": "Jujuy",
             "region": "Norte",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/b9/5f/salinas-grandes-es-la.jpg?w=2400&h=-1&s=1",
-            "descripcion": "Sumérjase en algunos de los paisajes más espectaculares de Argentina con esta excursión al noroeste para grupos pequeños. Vea la Quebrada de Humahuaca, declarada Patrimonio de la Humanidad por la UNESCO, y su Cerro de los Siete Colores, contemple las salinas blancas de Salinas Grandes y compre recuerdos en el famoso mercado de artesanía de Purmamarca.",
+            "descripcion": "Vea la Quebrada de Humahuaca, declarada Patrimonio de la Humanidad por la UNESCO, y su Cerro de los Siete Colores, contemple las salinas blancas de Salinas Grandes y compre recuerdos en el famoso mercado de artesanía de Purmamarca.",
             "precio": "9500 ARS por persona"
         },
         {
@@ -86,7 +86,7 @@
             "provincia": "Mendoza",
             "region": "Cuyo",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b5/a8/02/aconcagua-32-largejpg.jpg?w=1800&h=-1&s=1",
-            "descripcion": "Realizaremos una ruta de trekking de 2,5 horas y dificultad baja, llegando hasta los 3050 metros sobre el nivel del mar. A lo largo del recorrido, contemplaremos lugares tan fascinantes como la Laguna Horcones y el Puente de la Quebrada del Durazno. En este último punto nos detendremos para tomar un almuerzo tipo pícnic que incluirá empanadas de carne criolla, frutas, alfajores, dulces diversos y vino mendocino.",
+            "descripcion": "Realizaremos una ruta de trekking de 2,5 horas y dificultad baja, llegando hasta los 3050 metros sobre el nivel del mar. A lo largo del recorrido, contemplaremos lugares tan fascinantes como la Laguna Horcones y el Puente de la Quebrada del Durazno.",
             "precio": "7500 ARS por persona"
         },
         {
@@ -132,7 +132,7 @@
             "provincia": "Tierra del Fuego",
             "region": "Patagonia",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/24/f9/76/beagle-channel.jpg?w=2200&h=-1&s=1",
-            "descripcion": "Comenzamos la navegación saliendo desde el Muelle Turístico de nuestra ciudad,  en dirección al Canal Beagle,  disfrutando a medida que nos alejamos, de la vista panorámica de la costa de Ushuaia, divisando los edificios más importantes, Museo Marítimo (antiguo presidio), Museo del Fin del Mundo, el área industrial, y los montes Olivia y Cinco Hermanos. Navegamos hacia el sudoeste, acercándonos a la isla de Los Lobos, donde, desde la embarcación, podremos disfrutar de la vista de ejemplares de lobos marinos, observando su hábitat permanente, en un escenario maravilloso.",
+            "descripcion": "Comenzamos la navegación saliendo desde el Muelle Turístico de nuestra ciudad, en dirección al Canal Beagle, disfrutando a medida que nos alejamos, de la vista panorámica de la costa de Ushuaia, divisando los edificios más importantes, Museo Marítimo (antiguo presidio), Museo del Fin del Mundo, el área industrial, y los montes Olivia y Cinco Hermanos.",
             "precio": "13000 ARS por persona"
         }
 ]

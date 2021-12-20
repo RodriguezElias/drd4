@@ -179,17 +179,23 @@
           </p>
         </div>
         <div class="botones-region">
-          <ul>
-            <li class="filter" data-nombre="Cuyo" class="tour">Cuyo</li>
-            <li class="filter" data-nombre="Litoral" class="tour">Litoral</li>
-            <li class="filter" data-nombre="Norte" class="tour">Norte</li>
-            <li class="filter" data-nombre="Patagonia" class="tour">
-              Patagonia
-            </li>
-          </ul>
+          <!-- <ul> -->
+            <button class="filter" id="cuyo" data-nombre="Cuyo" onclick="filterSelection('cuyo')">Cuyo</button>
+   <!--          <li class="filter" data-nombre="Cuyo" class="tour">Cuyo</li> -->
+            <button class="filter" data-nombre="Litoral" onclick="filterSelection('litoral')">Litoral</button>
+          <!--   <li class="filter" data-nombre="Litoral" class="tour">Litoral</li> -->
+          <button class="filter" data-nombre="Norte" onclick="filterSelection('norte')">Norte</button>
+         <!--  <li class="filter" data-nombre="Norte" class="tour">Norte</li> -->
+         <button class="filter" data-nombre="Patagonia" onclick="filterSelection('patagonia')">Patagonia</button>
+         
+  <!--        <li class="filter" data-nombre="Patagonia" class="tour">Patagonia</li> -->
+         <!--  </ul> -->
         </div>
-        <div class="contenedor-items" id="datos"></div>
+     <!--    <div class="contenedor-items" id="datos"></div> -->
       </section>
+      <div class="contenedor-items" id="datos">
+   
+      </div>
     </main>
     <footer>
       <div class="footer contenedor">
