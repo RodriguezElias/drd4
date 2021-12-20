@@ -21,7 +21,7 @@
 
 body {
   font-family: "Libre Baskerville", serif;
-  
+  background-image: url("/img/fondocontacto.jpg");
 }
 
 img {
@@ -48,8 +48,6 @@ header {
   height: 120px;
   background: transparent;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  position: fixed;
-  z-index: 2;
  /*  color: aliceblue; */
 }
 .contenedor-nav {
@@ -108,10 +106,6 @@ nav .enlaces1 a:hover {
   transition: 0.6s;
 }
 
-.is-scrolling {
-  background-color: #fff;
-  height: 80px;
-}
 .contenedor-video h1 {
   width: 50%;
   line-height: 70px;
@@ -147,232 +141,143 @@ video {
   font-size: 30px;
   font-weight: 300;
 }
+/* FORMULARIO =================================== */
 
-/* Main */
-.contenedor-principal {
-  width: 90%;
-  margin: auto;
-}
-.team-contenedor {
-  margin: 40px auto;
-  padding: var(--margenes) 0;
-  max-width: 1000px;
-  text-align: center;
-  overflow: hidden;
-}
-.team-contenedor h1 {
-  font-size: 32px;
+.form_wrap {
+  width: 1000px;
+  height: 630px;
+  margin: 0px auto;
+  margin-top: 100px;
+  display: flex;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.358);
+  z-index: 1;
 }
 
-.team-contenedor h3 {
-  font-size: var(--titulos);
-  color: var(--color1);
-  margin-bottom: var(--espacios);
-}
+/* Informacion de Contacto*/
 
-.team-contenedor p {
-  font-size: var(--subtitulos);
-  font-weight: 300;
-  color: var(--color1);
-}
-
-.contenedor-tours {
-  width: 80%;
-  margin: 50px auto;
-  text-align: center;
-}
-.contenedor-tours h1 {
-  font-size: 32px;
-}
-.tours-info {
-}
-.text-tour {
-  margin: 30px 0px;
-}
-.text-tour::after {
+.cantact_info::before {
   content: "";
-  display: block;
-  margin: auto;
-  margin-top: var(--espacios);
-  width: 100px;
-  height: 2px;
-  background: var(--color1);
-  margin-bottom: var(--espacios-contenido);
-}
-
-.top {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.content-top {
-  width: 31%;
-  border-radius: 8%;
-  box-shadow: 0 0 6px 0 rgba(243, 237, 237, 0.5);
-  overflow: hidden;
-  height: 400px;
-}
-
-.provincia {
-  height: 80%;
-}
-
-.content-top img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: #042c5aa0;
+  opacity: 0.9;
 }
 
-.texto-top {
-  height: 20%;
-  width: 100%;
-  padding: var(--espacios) 0;
-}
-
-.botones-region {
-  overflow: hidden;
-}
-
-.botones-region li {
-  display: inline-block;
-  text-align: center;
-  margin-left: var(--espacios);
-  margin-bottom: var(--espacios-contenido);
-  padding: 6px 12px;
-  border: 1px solid var(--color1);
-  list-style: none;
-  color: var(--color1);
-}
-
-.botones-region li:hover {
-  background: var(--color1);
-  color: #fff;
-  cursor: pointer;
-}
-
-.botones-region .active {
-  background: var(--color1);
-  color: #fff;
-}
-.contenedor-items{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-}
-.item{
-  
-}
-.item-imagen{
-  width: 100%;
-  height: 300px;
-}
-.galeria-region {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-/*estilo de nosotros*/
-.container__card {
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 20px;
-  perspective: 1000px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card__father {
-  margin: 20px;
-  perspective: 1000px;
-}
-
-.card__father:hover .card {
-  transform: rotateY(180deg);
-}
-
-.card {
-  width: 290px;
-  height: 340px;
+.cantact_info {
+  width: 38%;
   position: relative;
-  transform-style: preserve-3d;
-  transition: all 600ms;
-}
 
-.card__front {
-  background-size: cover;
-  background-position: center;
-}
-
-.card__front,
-.card__back {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  border-radius: 20px;
-}
-
-.card__back {
-  transform: rotateY(180deg);
-  background: white;
-}
-
-.body__card_front {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding: 40px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+
+  background-image: url("/img/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.info_title,
+.info_items {
+  position: relative;
+  z-index: 2;
   color: #fff;
-  transform: translateZ(60px);
 }
 
-.bg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 20px;
+.info_title {
+  margin-bottom: 60px;
 }
 
-.body__card_back {
-  padding: 40px;
+.info_title span {
+  font-size: 100px;
+  display: block;
   text-align: center;
-  transform: translateZ(60px);
+  margin-bottom: 15px;
 }
 
-.body__card_back p {
-  margin-top: 30px;
-  font-size: 18px;
+.info_title h2 {
+  font-size: 35px;
+  text-align: center;
 }
 
-.body__card_back input {
-  padding: 10px 40px;
-  margin-top: 30px;
+.info_items p {
+  display: flex;
+  align-items: center;
+
   font-size: 16px;
-  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Formulario de contacto*/
+form.form_contact {
+  width: 62%;
+  padding: 30px 40px;
+}
+
+form.form_contact h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+form.form_contact .user_info {
+  display: flex;
+  flex-direction: column;
+}
+
+form.form_contact label {
+  font-weight: 600;
+}
+
+form.form_contact input,
+form.form_contact textarea {
+  width: 100%;
+  padding: 8px 0px 5px;
+  margin-bottom: 20px;
+
   border: none;
-  color: white;
-  background: #58b0f6;
-  box-shadow: 1px 1px 30px -5px #58b0f6;
-  border-radius: 10px;
-  transition: box-shadow 600ms;
+  border-bottom: 2px solid #d1d1d1;
+
+  font-family: "Open sans";
+  color: #3d3c3c;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.body__card_back input:hover {
-  box-shadow: 1px 1px 30px 0px #449de6;
+form.form_contact textarea {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 90px;
 }
 
+form.form_contact input[type="button"] {
+  width: 180px;
+  background: #213988fb;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+
+  align-self: flex-end;
+
+  color: #fff;
+  font-family: "Open sans";
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form.form_contact input[type="button"]:hover {
+  background: #e98109;
+}
 
 /*------------------------*/
 /* footer*/
@@ -442,4 +347,3 @@ footer {
 }
 
 /*----------------------*/
-
