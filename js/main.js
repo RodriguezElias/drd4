@@ -6,6 +6,9 @@ window.onload = () => {
       document.querySelector("#nav").classList.remove("is-scrolling")
     }
   });
+  traerDatos();
+  pintarDatos();
+  //recorrerListadoYRenderizarTarjetas()
 };
 
 /* Funcion abrir carrito */

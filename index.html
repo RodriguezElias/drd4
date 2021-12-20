@@ -1,167 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DRD4 TOURS</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>DRD4 TOURS</title>
-   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <!-- css estilos-->
-  <link rel="stylesheet" href="css/home.css" />
-  <link rel="stylesheet" href="css/tour.css" />
-</head>
-<body>
-  <!-- nuestro inicio-->
-  <header>
-    <nav id="nav" class="nav">
-      <div class="contenedor-nav">
-        <div class="contenedor-logo">
-          <img src="/img/Logo-drd4.png" alt="">
-        </div>
-        <div class="enlaces1" id="enlaces1">
-          <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
-          <a href="#nosotros" id="enlace-nosotros" class="btn-header">Nosotros</a>
-          <a href="lugares.html" id="enlace-tour" class="btn-header">Nuestros Tours</a>
-          <a href="#" id="enlace-blog" class="btn-header">Blog </a>
-          <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
-          <div class="contenedor-icono-carrito">
-            <i class="fas fa-shopping-cart fa-2x" id="carrito"></i>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- css estilos-->
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/tour.css" />
+  </head>
+  <body>
+    <!-- nuestro inicio-->
+    <header>
+      <nav id="nav" class="nav">
+        <div class="contenedor-nav">
+          <div class="contenedor-logo">
+            <img src="/img/Logo-drd4.png" alt="" />
+          </div>
+          <div class="enlaces1" id="enlaces1">
+            <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+            <a href="#nosotros" id="enlace-nosotros" class="btn-header"
+              >Nosotros</a
+            >
+            <a href="lugares.html" id="enlace-tour" class="btn-header"
+              >Nuestros Tours</a
+            >
+            <a href="#" id="enlace-blog" class="btn-header">Blog </a>
+            <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+            <div class="contenedor-icono-carrito">
+              <i class="fas fa-shopping-cart fa-2x" id="carrito"></i>
+            </div>
+          </div>
+          <div class="menu-cart">
+            <i class="fas fa-times fa-2x" id="cerrar"></i>
+            <h2>CARRITO</h2>
           </div>
         </div>
-        <div class="menu-cart">
-            <i class="fas fa-times fa-2x" id="cerrar"></i>
-          <h2>CARRITO</h2>
-        </div>
+      </nav>
+      <div class="contenedor-video">
+        <h1>
+          La pasión por viajar no se reduce solamente a poseer el gen viajero...
+          sino a saber escoger la mejor agencia
+        </h1>
+        <video
+          src="img/pexels-fearless-dreams-5598970.mp4"
+          onloadedmetadata="this.muted=true"
+          autoplay
+          loop
+          muted
+        ></video>
       </div>
-    </nav>
-    <div class="contenedor-video">
-      <h1>La pasión por viajar no se reduce solamente a poseer el gen viajero...
-                        sino a saber escoger la mejor agencia </h1>
-      <video src="img/pexels-fearless-dreams-5598970.mp4" onloadedmetadata="this.muted=true" autoplay loop
-        muted></video>
-    </div>
-  </header>
-  <!-- Nosotros -->
-  <main class="contenedor-principal">
-    <section class="team-contenedor" id="nosotros">
-      <h1>¿QUIÉNES SOMOS?</h1>
-      <br />
-      <P><i>La vida no se mide por el número de veces que respiramos-sino-por los lugares que 
-        nos quitan la respiración.</i> Es por ello que  <i>DRD4 TOURS</i>  te lleva a conocer mágicos lugares,
-        a descubrir hipnóticos escenarios naturales en este rincón del planeta conocido como Argentina.
-     </P>
-     <br/>
-     <p> <i>DRD4 FOUR</i>  es una agencia de turismo con más de 14 años de trayectoria en el mercado, caracterizada
-        por brindar una experiencia única, diseñar y ofrecer las mejores alternatias en su viaje.
-     </p>
-     <br/>
-     <p>Nos encontramos en constante evolución para garantizar respuestas eficientes que se adapten a las exigencias 
-        de cada uno de nuestros clientes. Estamos comprometidos con el desarrollo sotenible, que respeta el patrimonio
-        natural y cultural de cada región, promoviendo con nuestros clientes prácticas responsables con el medio ambiente,
-        comunidades locales  patrimonio cultural. </p>
-      <br />
-      <div class="about" id="servicio">  
+    </header>
+    <!-- Nosotros -->
+    <main class="contenedor-principal">
+      <section class="team-contenedor" id="nosotros">
+        <h1>¿QUIÉNES SOMOS?</h1>
+        <br />
+        <p>
+          <i
+            >La vida no se mide por el número de veces que respiramos-sino-por
+            los lugares que nos quitan la respiración.</i
+          >
+          Es por ello que <i>DRD4 TOURS</i> te lleva a conocer mágicos lugares,
+          a descubrir hipnóticos escenarios naturales en este rincón del planeta
+          conocido como Argentina.
+        </p>
+        <br />
+        <p>
+          <i>DRD4 FOUR</i> es una agencia de turismo con más de 14 años de
+          trayectoria en el mercado, caracterizada por brindar una experiencia
+          única, diseñar y ofrecer las mejores alternatias en su viaje.
+        </p>
+        <br />
+        <p>
+          Nos encontramos en constante evolución para garantizar respuestas
+          eficientes que se adapten a las exigencias de cada uno de nuestros
+          clientes. Estamos comprometidos con el desarrollo sotenible, que
+          respeta el patrimonio natural y cultural de cada región, promoviendo
+          con nuestros clientes prácticas responsables con el medio ambiente,
+          comunidades locales patrimonio cultural.
+        </p>
+        <br />
+        <div class="about" id="servicio">
           <div class="container__card">
             <div class="card__father">
-                <div class="card">
-                    <div class="card__front" style="background-image: url(./img/gastronomia-servicio.jpg);">
-                        <div class="bg"></div>
-                        <div class="body__card_front">
-                            <h1>GASTRONOMIA</h1>
-                        </div>
-                    </div>
-                    <div class="card__back">
-                        <div class="body__card_back">
-                            <p>Es inolvidable que la mesa-y todo lo que sucede alrededor de la comida- es una excusa para el encuentro y un espacio de unión e interación, por eso
-                            descubre la gastronomía de Argentina, tan distinta como sus destinos.</p>
-                        </div>
-                    </div>
+              <div class="card">
+                <div
+                  class="card__front"
+                  style="background-image: url(./img/gastronomia-servicio.jpg)"
+                >
+                  <div class="bg"></div>
+                  <div class="body__card_front">
+                    <h1>GASTRONOMIA</h1>
+                  </div>
                 </div>
+                <div class="card__back">
+                  <div class="body__card_back">
+                    <p>
+                      Es inolvidable que la mesa-y todo lo que sucede alrededor
+                      de la comida- es una excusa para el encuentro y un espacio
+                      de unión e interación, por eso descubre la gastronomía de
+                      Argentina, tan distinta como sus destinos.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="card__father">
-                <div class="card">
-                    <div class="card__front" style="background-image: url(./img/hotel-servicios.jpg);">
-                        <div class="bg"></div>
-                        <div class="body__card_front">
-                            <h1>HOTELERIA</h1>
-                        </div>
-                    </div>
-                    <div class="card__back">
-                        <div class="body__card_back">
-                            <p>Esas noches fuera de casa no te dediques sólo a lavarte los dientes y la cara antes de dormir, recarga tus energías, descansa y sueña 
-                            con ese próximo día de aventura. No es un hotel y ya, es un lugar perfecto para reir, disfrutar y soñar.</p>
-                        </div>
-                    </div>
+              <div class="card">
+                <div
+                  class="card__front"
+                  style="background-image: url(./img/hotel-servicios.jpg)"
+                >
+                  <div class="bg"></div>
+                  <div class="body__card_front">
+                    <h1>HOTELERIA</h1>
+                  </div>
                 </div>
+                <div class="card__back">
+                  <div class="body__card_back">
+                    <p>
+                      Esas noches fuera de casa no te dediques sólo a lavarte
+                      los dientes y la cara antes de dormir, recarga tus
+                      energías, descansa y sueña con ese próximo día de
+                      aventura. No es un hotel y ya, es un lugar perfecto para
+                      reir, disfrutar y soñar.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="card__father">
-                <div class="card">
-                    <div class="card__front" style="background-image: url(./img/excursiones-servicio.jpg);">
-                        <div class="bg"></div>
-                        <div class="body__card_front">
-                            <h1>EXCURSIÓN</h1>
-                        </div>
-                    </div>
-                    <div class="card__back">
-                        <div class="body__card_back">
-                            <p>Viajar es una aventura que trae momentos inolvidables, crea cada uno de ellos conociendo, descubriendo y conectando con la naturaleza.
-                                Hay demasiadas aventuras ahi afuera esperando a ser vividas.</p>
-                        </div>
-                    </div>
+              <div class="card">
+                <div
+                  class="card__front"
+                  style="background-image: url(./img/excursiones-servicio.jpg)"
+                >
+                  <div class="bg"></div>
+                  <div class="body__card_front">
+                    <h1>EXCURSIÓN</h1>
+                  </div>
                 </div>
+                <div class="card__back">
+                  <div class="body__card_back">
+                    <p>
+                      Viajar es una aventura que trae momentos inolvidables,
+                      crea cada uno de ellos conociendo, descubriendo y
+                      conectando con la naturaleza. Hay demasiadas aventuras ahi
+                      afuera esperando a ser vividas.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Nuestros tours-->
+      <section class="contenedor-tours" id="tours">
+        <div class="tours-info">
+          <h1>Nuestros Tours</h1>
+          <p class="text-tour">
+            Cuando tu deseo de viajar nace de la "necesidad" de conocer,
+            descubrir y explorar nuevos rincones; el destino es primordial y
+            DRD4 TOURS te lleva a conectar con mágicos lugares en Argentina.
+            Atrévete a experimentar una cautivante aventura seleccionando uno de
+            nuestros tours.
+          </p>
+        </div>
+        <div class="botones-region">
+          <!-- <ul> -->
+            <button class="filter" id="cuyo" data-nombre="Cuyo" onclick="filterSelection('cuyo')">Cuyo</button>
+   <!--          <li class="filter" data-nombre="Cuyo" class="tour">Cuyo</li> -->
+            <button class="filter" data-nombre="Litoral" onclick="filterSelection('litoral')">Litoral</button>
+          <!--   <li class="filter" data-nombre="Litoral" class="tour">Litoral</li> -->
+          <button class="filter" data-nombre="Norte" onclick="filterSelection('norte')">Norte</button>
+         <!--  <li class="filter" data-nombre="Norte" class="tour">Norte</li> -->
+         <button class="filter" data-nombre="Patagonia" onclick="filterSelection('patagonia')">Patagonia</button>
+         
+  <!--        <li class="filter" data-nombre="Patagonia" class="tour">Patagonia</li> -->
+         <!--  </ul> -->
+        </div>
+     <!--    <div class="contenedor-items" id="datos"></div> -->
+      </section>
+      <div class="contenedor-items" id="datos">
+   
+      </div>
+    </main>
+    <footer>
+      <div class="footer contenedor">
+        <div class="iconos">
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i> </a>
+
+          <a href=" https://www.facebook.com/"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+
+          <a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </div>
       </div>
-    </section>
+    </footer>
+    <!-- materialize.js-->
+    <!-- js main -->
+  </body>
 
-    <!--Nuestros tours-->
-    <section class="contenedor-tours" id="tours">
-      <div class="tours-info">
-        <h1>Nuestros Tours</h1>
-        <p class="text-tour">Cuando tu deseo de viajar nace de la "necesidad" de conocer, descubrir y explorar
-         nuevos rincones; el destino es primordial y DRD4 TOURS te lleva a conectar con mágicos lugares en Argentina. Atrévete a experimentar 
-        una cautivante aventura seleccionando uno de nuestros tours.</p>
-      </div>
-      <div class="botones-region">
-        <ul>
-          <li class="filter" data-nombre="Cuyo" class="tour">Cuyo</li>
-          <li class="filter" data-nombre="Litoral" class="tour">Litoral</li>
-          <li class="filter" data-nombre="Norte" class="tour">Norte</li>
-          <li class="filter" data-nombre="Patagonia" class="tour">Patagonia</li>
-        
-        </ul>
-      
-      </div>
-      <button id="obtener-tour">tour</button>
-      <div id="fila"></div>
-     
-    </section>  
-  </main>
-  <footer >
-    <div class="footer contenedor">
-      <div class="iconos">
-        <a href="https://twitter.com"><i class="fab fa-twitter"></i> </a>
-
-        <a href=" https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
-  <!-- materialize.js-->
-   <!-- js main -->
-
- 
-</body>
-
-<!-- js main -->
-<script src="js/main.js"></script>
-<script src="js/data.js"></script>
-<script src="js/listener.js"></script>
-
-
+  <!-- js main -->
+  <script src="js/main.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/listener.js"></script>
 </html>
