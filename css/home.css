@@ -347,7 +347,6 @@ video {
   color: #fff;
 }
 
-
 /*estilo de nosotros*/
 .container__card {
   max-width: 1200px;
@@ -448,33 +447,73 @@ video {
   box-shadow: 1px 1px 30px 0px #449de6;
 }
 
-/* Footer */
 
+/*------------------------*/
+/* footer*/
 footer {
-  background: url(img/arg11.jpg);
+  width: 100%;
+  margin-top: 40px;
+  background: rgb(138, 213, 243);
+  color: rgb(104, 100, 100);
 }
-
-.marca-logo {
-  width: 40%;
-  margin: auto;
-  margin-bottom: var(--espacios);
-}
-.marca-logo img {
+.container-footer-all {
   width: 100%;
 }
-.iconos {
+.container-body {
   display: flex;
-  margin: auto;
-  justify-content: space-around;
-  width: 100%;
-}
-.fab {
-  font-size: 60px;
-  color: rgb(13, 13, 83);
-  margin-bottom: var(--espacios);
-  display: inline-block;
+  justify-content: center;
 }
 
-footer p {
-  margin-top: var(--espacios);
+.colum2 {
+  max-width: 400px;
 }
+.colum2 h1 {
+  font-size: 18px;
+  margin-top: 22px;
+  margin-left: 50px;
+}
+.row {
+  margin: top 1px;
+  display: flex;
+}
+.row img {
+  width: 36px;
+  height: 36px;
+  margin: 20px;
+}
+.row label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #c7c7c7;
+}
+.colum3 {
+  font-size: 15px;
+  margin-left: 450px;
+}
+.colum3 h1 {
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: center;
+}
+.row2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.row2 img {
+  width: 36px;
+  height: 36px;
+}
+.row2 label {
+  margin-left: 8px;
+  margin-right: 20px;
+}
+.container-footer {
+  width: 100%;
+  background: #101010;
+  display: flex;
+  justify-content: center;
+  padding: 34px;
+}
+
+/*----------------------*/
+
