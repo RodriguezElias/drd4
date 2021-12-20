@@ -255,7 +255,18 @@ video {
   background: var(--color1);
   color: #fff;
 }
-
+.contenedor-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.item{
+  
+}
+.item-imagen{
+  width: 250px;
+  height: 300px;
+}
 .galeria-region {
   display: flex;
   flex-wrap: wrap;
