@@ -1,4 +1,4 @@
-const tourTour = document.querySelector("#obtener-Tour");
+/* const tourTour = document.querySelector("#obtener-tour");
 const verMasBtn = document.querySelector("#ver-mas");
 
 tourBtn.addEventListener("click", recorrerListadoYRenderizarTarjetas);

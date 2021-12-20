@@ -1,26 +1,33 @@
 
-let fs = require('fs');
-let dataJSON = fs.readFileSync(__dirname + '/data.json', 'UTF-8');
-let data = JSON.parse(dataJSON)
-console.log(data); 
+let items;
+/* Funcion para traer los datos del JSON */
+const traerDatos = async () => {
+  try {
+    const res = await fetch("js/data.json");
+    const data = await res.json();
+    console.log(data);
+    items = data;
+  } catch (error) {
+    console.log(error);
+  }
+};
 
 let contador = 0;
 function recorrerListadoYRenderizarTarjetas() {
-  data : data;
   let tours = document.querySelector("obtener-tour");
   tours.addEventListener("click", function (event) {
     contador++
     if (contador == 1) {
       let contenedor = document.getElementById("fila");
-      data.forEach(tour => {
+      items.forEach(item => {
       let templateTarjeta =
           `<div class="caja">
-      <img src=${tour.imagen} alt=${tour.titulo}>
-      <p class="info">${tour.titulo}</p>
-      <p class="info">Provincia: ${tour.provincia}</p>
-      <p class="info">Región: ${tour.region}</p>
-      <p class="info">Descripción: ${tour.descripcion}</p>
-      <p class="info">Precio: ${tour.precio}</p>
+      <img src=${item.imagen} alt=${item.titulo}>
+      <p class="info">${item.titulo}</p>
+      <p class="info">Provincia: ${item.provincia}</p>
+      <p class="info">Región: ${item.region}</p>
+      <p class="info">Descripción: ${item.descripcion}</p>
+      <p class="info">Precio: ${item.precio}</p>
     </div>`;
         contenedor.innerHTML += templateTarjeta;
       })
@@ -30,6 +37,5 @@ function recorrerListadoYRenderizarTarjetas() {
   })
 }
 recorrerListadoYRenderizarTarjetas(); 
-
 
 

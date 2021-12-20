@@ -28,6 +28,7 @@ button:hover {
 #fila {
   display: flex;
   justify-content: space-around;
+  height: 200px;
 }
 .caja {
   width: 30%;
