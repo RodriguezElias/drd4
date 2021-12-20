@@ -6,6 +6,7 @@ console.log(data);
 
 let contador = 0;
 function recorrerListadoYRenderizarTarjetas() {
+  data : data;
   let tours = document.querySelector("obtener-tour");
   tours.addEventListener("click", function (event) {
     contador++
