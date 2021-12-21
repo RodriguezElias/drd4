@@ -152,8 +152,8 @@ video {
   width: 90%;
   margin:auto;
   margin-bottom: 200px;
-  box-shadow: var(--shadow);
-  transition: box-shadow 0.5s;
+/*   box-shadow: var(--shadow);
+  transition: box-shadow 0.5s; */
 }
 .team-contenedor {
   margin: 40px auto;
@@ -204,10 +204,15 @@ video {
   border-style: none;
   padding: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .filter:hover{
   background-color: rgb(131, 182, 84);
+  width: 185px;
+  padding: 8px;
+
+
 }
 
 .text-tour {
