@@ -43,7 +43,7 @@ const pintarDatos = (datos) => {
 
     const itemPrecio = document.createElement("p");
     itemPrecio.classList.add("precio");
-    itemPrecio.textContent = `${item.precio} ARS por persona`;
+    itemPrecio.textContent = `${item.precio}`;
     const botonComprar = document.createElement("button");
     botonComprar.textContent = "Reservar";
     botonComprar.classList.add("boton-reservar");
@@ -118,6 +118,7 @@ const setCarrito = (obj) => {
   carrito[item.id] = { ...item };
   pintarCarrito();
   setContador();
+  console.log(carrito);
 };
 
 const pintarCarrito = () => {
