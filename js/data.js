@@ -31,18 +31,19 @@ const pintarDatos = (datos) => {
     itemTitulo.textContent = `${item.titulo}`;
     const itemProvincia = document.createElement("p");
     itemProvincia.classList.add("region");
-    itemProvincia.textContent = `${item.provincia}`;
+    itemProvincia.textContent = `Provincia: ${item.provincia}`;
     const itemRegion = document.createElement("p");
     itemRegion.classList.add("region");
-    itemRegion.textContent = `${item.region}`;
+    itemRegion.textContent = `Región: ${item.region}`;
     const itemDescripcion = document.createElement("p");
     itemDescripcion.classList.add("descripcion");
     itemDescripcion.textContent = `${item.descripcion}`;
     const precioStock = document.createElement("div");
     precioStock.classList.add("precioStock");
+
     const itemPrecio = document.createElement("p");
     itemPrecio.classList.add("precio");
-    itemPrecio.textContent = `${item.precio}`;
+    itemPrecio.textContent = `${item.precio} ARS por persona`;
     const botonComprar = document.createElement("button");
     botonComprar.textContent = "Reservar";
     botonComprar.classList.add("boton-reservar");
@@ -50,7 +51,7 @@ const pintarDatos = (datos) => {
 
     const itemStock = document.createElement("p");
     itemStock.classList.add("stock");
-    itemStock.textContent = `${item.stock}`;
+    itemStock.textContent = `Stock: ${item.stock}`;
     items.appendChild(itemImagen);
     items.appendChild(itemTitulo);
     items.appendChild(itemProvincia);
@@ -138,7 +139,7 @@ const pintarCarrito = () => {
     const tituloItem = document.createElement("p");
     tituloItem.textContent = item.titulo;
     const precioItem = document.createElement("p");
-    precioItem.textContent = `Precio Total: $${item.precio}`;
+    precioItem.textContent = `Precio total: $${item.precio}`;
     const cantidadItem = document.createElement("p");
     cantidadItem.textContent = `Cantidad: ${item.cantidad}`;
     contenedorItemInfo.appendChild(tituloItem);
@@ -152,10 +153,11 @@ const pintarCarrito = () => {
     let resultadoTotal = 0;
     const contenedorMenuCarrito = document.createElement("div");
     const precioTotal = document.createElement("p");
+    precioTotal.classList.add("precio-total");
     Object.values(carrito).forEach((item) => {
       resultadoTotal += Number(item.precio);
     });
-    precioTotal.textContent = `Precio Total: $${resultadoTotal}`;
+    precioTotal.textContent = `Precio total: $${resultadoTotal}`;
     const btnvaciarCarrito = document.createElement("button");
     btnvaciarCarrito.id = "vaciar-carrito";
     btnvaciarCarrito.classList.add("vaciar-carrito");
@@ -165,7 +167,7 @@ const pintarCarrito = () => {
     contenedorMenuCarrito.appendChild(btnvaciarCarrito);
     contenedorCarrito.appendChild(contenedorMenuCarrito);
   } else {
-    contenedorCarrito.innerHTML= `<p class="carrito-vacio">EL CARRITO ESTA VACIO</p>`
+    contenedorCarrito.innerHTML= `<p class="carrito-vacio">EL CARRITO ESTÁ VACÍO</p>`
   }
 };
 const setContador = () => {
