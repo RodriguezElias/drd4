@@ -19,7 +19,8 @@ const traerDatos = async () => {
 /* Funcion renderizar datos en el HTML */
 const pintarDatos = (datos) => {
   let contenedorItems = document.querySelector("#datos");
-  datos.forEach((item) => {
+
+    datos.forEach((item) => {
     const items = document.createElement("div");
     items.classList.add("item");
     const itemImagen = document.createElement("img");
@@ -37,6 +38,8 @@ const pintarDatos = (datos) => {
     const itemDescripcion = document.createElement("p");
     itemDescripcion.classList.add("descripcion");
     itemDescripcion.textContent = `${item.descripcion}`;
+    const precioStock = document.createElement("div");
+    precioStock.classList.add("precioStock");
     const itemPrecio = document.createElement("p");
     itemPrecio.classList.add("precio");
     itemPrecio.textContent = `${item.precio}`;
@@ -45,6 +48,9 @@ const pintarDatos = (datos) => {
     botonComprar.classList.add("boton-reservar");
     botonComprar.dataset.id = item.id;
 
+    const itemStock = document.createElement("p");
+    itemStock.classList.add("stock");
+    itemStock.textContent = `${item.stock}`;
     items.appendChild(itemImagen);
     items.appendChild(itemTitulo);
     items.appendChild(itemProvincia);
@@ -52,7 +58,15 @@ const pintarDatos = (datos) => {
     items.appendChild(itemDescripcion);
     items.appendChild(itemPrecio);
     items.appendChild(botonComprar);
+    precioStock.appendChild(itemPrecio);
+    precioStock.appendChild(itemStock);
+    items.appendChild(precioStock);
+  
+    
     contenedorItems.appendChild(items);
+    
+ /*    contenedorItems.appendChild(precioStock); */
+
   });
 };
 

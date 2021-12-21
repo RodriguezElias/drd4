@@ -51,6 +51,7 @@ header {
   position: fixed;
   z-index: 2;
   /*  color: aliceblue; */
+ 
 }
 .contenedor-nav {
   display: flex;
@@ -60,8 +61,7 @@ header {
   align-items: center;
   height: inherit;
 }
-.contenedor-logo {
-}
+
 .contenedor-logo img {
   width: 180px;
   height: 180px;
@@ -193,8 +193,8 @@ video {
   width: 90%;
   margin: auto;
   margin-bottom: 200px;
-  box-shadow: var(--shadow);
-  transition: box-shadow 0.5s;
+/*   box-shadow: var(--shadow);
+  transition: box-shadow 0.5s; */
 }
 .team-contenedor {
   margin: 40px auto;
@@ -234,21 +234,32 @@ video {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 19px;
   background-color: rgb(145, 212, 82);
-  width: 205px;
+  width: 180px;
   margin-left: 5px;
   margin-right: 5px;
-  color: rgb(0, 0, 0);
+  color: white;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.5s;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .filter:hover {
   background-color: rgb(131, 182, 84);
+  width: 185px;
+  padding: 8px;
 }
-
 /* TOURS */
 .tours-info {
+
 }
+
 .text-tour {
   margin: 30px 0px;
+ 
 }
 .text-tour::after {
   content: "";
@@ -267,20 +278,21 @@ video {
   gap: 40px;
   padding-bottom: 50px;
 }
-.item {
-  /*   display: flex; */
-  display: block;
+.item{
+/*   display: flex; */
+  display: flex;
+  flex-wrap: wrap;
   background-color: rgb(250, 250, 250);
   border-radius: 10px;
   border-color: rgb(235, 230, 230);
   box-shadow: var(--shadow);
   transition: box-shadow 0.5s;
-  width: 45%;
+  width: 30%;
 }
 
 .item-imagen {
   position: relative;
-  display: inline-block;
+  display: flex;
   text-align: center;
   width: 100%;
   height: 300px;
@@ -295,7 +307,8 @@ video {
   padding: 15px;
 }
 
-.region {
+.region{
+  display: flex;
   margin-bottom: 5px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -305,6 +318,7 @@ video {
   text-align: left;
   font-weight: 700;
   font-size: 19px;
+  width: 100%;
 }
 
 .descripcion {
@@ -313,18 +327,58 @@ video {
   text-align: justify;
   padding: 15px;
   color: rgb(73, 71, 71);
+  display: flex;
 }
 
-.precio {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.precio{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
   text-align: center;
-  padding: 5px;
   font-size: 17px;
   font-weight: 700;
-  margin-bottom: unset;
-  /*  display: flex;
-  align-self: flex-end; */
+  padding-top: 10px;
+  margin-bottom:unset;
+  width: 100%;
+  height: 40%;
+  background-color: rgb(152, 226, 145);
+ 
+}
+
+.stock{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+/*   text-align: center;*/
+  justify-content: center; 
+  height: 40%;
+  width: 100%;
+  background-color: #5b95c3;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  padding-left: 15px;
+}
+.pocostock{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  text-align: center;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  background-color: #f11e1e;
+  border-radius: 0 0 10px 10px;
+}
+
+.precioStock {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  height: 120px;
+  width: 100%;
+  
+
 }
 
 .top {

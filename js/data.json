@@ -6,7 +6,8 @@
             "region": "Cuyo",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b6/ae/f2/volviendo.jpg?w=2400&h=-1&s=1",
             "descripcion": "Con la excursion 4x4 se conocen las postales tipicas de Talampaya con picada de regionales a mitad de camino: 1. PETROGLIFOS / 2. JARDÍN BOTÁNICO / 3. CATEDRAL GÓTICA / 4. EL MONJE",
-            "precio": "8500"
+            "precio": "8500 ARS por persona",
+            "stock": "Stock: 1"
         },
         {
             "id": "2",
@@ -15,7 +16,8 @@
             "region": "Cuyo",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a9/00/f0/sierra-de-las-quijadas.jpg?w=2000&h=-1&s=1",
             "descripcion": "Trekking de 1.15 hora aprox. Donde apreciaras  vista panorámica impresionante  de  las  Sierras  y su valle  interno  llamado  Potrero  de  la Aguada",
-            "precio": "1000"
+            "precio": "1000 ARS por persona",
+            "stock": "Stock: 2"
         },
         {
             "id": "3",
@@ -24,7 +26,8 @@
             "region": "Litoral",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a6/7b/de/la-sala-delle-vasche.jpg?w=1000&h=800&s=1",
             "descripcion": "El recorrido guiado comienza en el Parque Autóctono, el espacio público que bordea el río con una pequeña laguna y una forestación que invita a descubrir los principales ambientes naturales del humedal litoraleño.",
-            "precio": "3000"
+            "precio": "3000 ARS por persona",
+            "stock": "Stock: 5"
         },
         {
             "id": "4",
@@ -33,7 +36,8 @@
             "region": "Litoral",
             "imagen": "https://media.viajando.travel/p/d4a9447be27dc91258de44e962c944bf/adjuntos/255/imagenes/000/301/0000301651/entre-riosjpg.jpg?0000-00-00-00-00-00",
             "descripcion": "Visita guiada por este monumento histórico, duración 1-2 horas",
-            "precio": "1500"
+            "precio": "1500 ARS por persona",
+            "stock": "Stock: 8"
         },
         {
             "id": "5",
@@ -42,7 +46,8 @@
             "region": "Litoral",
             "imagen": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/b8/f8/dd.jpg",
             "descripcion": "Esta es la experiencia más profunda de Iberá. Trekking dentro de los humedales de la vida silvestre. Comparte con los capibaras y caimanes en su hábitat.",
-            "precio": "8433"
+            "precio": "8433 ARS por persona",
+            "stock": "Stock: 6"
         },
         {
             "id": "6",
@@ -51,7 +56,8 @@
             "region": "Litoral",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1a/8d/d2/la-garganta-del-diablo.jpg?w=1000&h=-1&s=1",
             "descripcion": "Visite las Cataratas del Iguazú, donde podrá ver la estruendosa Garganta del Diablo y puntos de referencia como la roca de Bella Vista, Two Sisters y Dos Hermanas.",
-            "precio": "5500"
+            "precio": "5500 ARS por persona",
+            "stock": "Stock: 4"
         },
         {
             "id": "7",
@@ -60,7 +66,8 @@
             "region": "Norte",
             "imagen": "https:/dynamic-media-cdn.tripadvisor.com/media/photo-o/17/69/12/c6/photo2jpg.jpg?w=1400&h=-1&s=1",
             "descripcion": "Recorrido de día completo por Tafí del Valle y las ruinas de Quilmes desde Tucumán.",
-            "precio": "9850"
+            "precio": "9850 ARS por persona",
+            "stock": "Stock: 5"
         },
         {
             "id": "8",
@@ -69,7 +76,8 @@
             "region": "Norte",
             "imagen": "https://www.clarin.com/img/2018/09/10/tren-a-las-nubes-ramiro___Sk_6OHE_Q_720x0__1.jpg",
             "descripcion": "Podrás admirar Los Andes argentinos y acceder a los increíbles vistas panorámicas de Puna",
-            "precio": "7750"
+            "precio": "7750 ARS por persona",
+            "stock": "Stock: 3"
         },
         {
             "id": "9",
@@ -78,7 +86,8 @@
             "region": "Norte",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/b9/5f/salinas-grandes-es-la.jpg?w=2400&h=-1&s=1",
             "descripcion": "Vea la Quebrada de Humahuaca, declarada Patrimonio de la Humanidad por la UNESCO, y su Cerro de los Siete Colores, contemple las salinas blancas de Salinas Grandes y compre recuerdos en el famoso mercado de artesanía de Purmamarca.",
-            "precio": "9500"
+            "precio": "9500 ARS por persona",
+            "stock": "Stock: 6"
         },
         {
             "id": "10",
@@ -87,7 +96,8 @@
             "region": "Cuyo",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b5/a8/02/aconcagua-32-largejpg.jpg?w=1800&h=-1&s=1",
             "descripcion": "Realizaremos una ruta de trekking de 2,5 horas y dificultad baja, llegando hasta los 3050 metros sobre el nivel del mar. A lo largo del recorrido, contemplaremos lugares tan fascinantes como la Laguna Horcones y el Puente de la Quebrada del Durazno.",
-            "precio": "7500"
+            "precio": "7500 ARS por persona",
+            "stock": "Stock: 3"        
         },
         {
             "id": "11",
@@ -96,7 +106,8 @@
             "region": "Cuyo",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/fa/fb/1b/vinedos-y-restaurante.jpg?w=2000&h=-1&s=1",
             "descripcion": "Tour guiado + degustación vinos jóvenes y reserva de diferentes terroirs. Chardonnay 2021 - Malbec 2019 - Malbec LOTE 1915 Reserva 2018 - Malbec Reserva 2019 Valle de Uco - Cabernet Souvignon",
-            "precio": "2000"
+            "precio": "2000 ARS por persona",
+            "stock": "Stock: 4"
         },
         
         {
@@ -106,7 +117,8 @@
             "region": "Patagonia",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/18/4a/13/atardecer-en-el-parque.jpg?w=2000&h=-1&s=1",
             "descripcion": "Visita guiada de 2-3 horas. Disfrute hermosos Atardeceres, lindo lugar para avistaje de aves, hacer picnic y disfrutar en familia.",
-            "precio": "3500"
+            "precio": "3500 ARS por persona",
+            "stock": "Stock: 6"
         },
         {
             "id": "13",
@@ -115,7 +127,8 @@
             "region": "Patagonia",
             "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG/1280px-Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
             "descripcion": "Es la excursión más completa que se ofrece para visitar el Glaciar Perito Moreno desde El Calafate al incluir la caminata sobre el hielo llamada Minitrekking, una navegación frente a la pared sur del glaciar y la visita a las pasarelas, siempre acompañados por un guía.",
-            "precio": "22500"
+            "precio": "22500 ARS por persona",
+            "stock": "Stock: 3"
         },
         {
             "id": "14",
@@ -124,7 +137,8 @@
             "region": "Patagonia",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/97/28/19/al-fin-del-mundo.jpg?w=1200&h=-1&s=1",
             "descripcion": "Sedenterismo y piragûismo al Parque Nacional Tierra del Fuego 12520$ por persona. Aventura al aire libre que incluye caminata 3 Horas y piraguismo 1.5 horas.",
-            "precio": "12520"
+            "precio": "12520 ARS por persona",
+            "stock": "Stock: 5"
         },
         {
             "id": "15",
@@ -133,6 +147,7 @@
             "region": "Patagonia",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/24/f9/76/beagle-channel.jpg?w=2200&h=-1&s=1",
             "descripcion": "Comenzamos la navegación saliendo desde el Muelle Turístico de nuestra ciudad, en dirección al Canal Beagle, disfrutando a medida que nos alejamos, de la vista panorámica de la costa de Ushuaia, divisando los edificios más importantes, Museo Marítimo (antiguo presidio), Museo del Fin del Mundo, el área industrial, y los montes Olivia y Cinco Hermanos.",
-            "precio": "13000"
+            "precio": "13000 ARS por persona",
+            "stock": "Stock: 2"
         }
 ]
