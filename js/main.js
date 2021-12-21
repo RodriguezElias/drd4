@@ -7,14 +7,13 @@ window.onload = () => {
     }
   });
   traerDatos();
-  pintarDatos();
-  //recorrerListadoYRenderizarTarjetas()
+  pintarContador(contador);
 };
 
 /* Funcion abrir carrito */
-const carrito = document.querySelector("#carrito")
+const botonCarrito = document.querySelector("#carrito")
 const menuCarrito = document.querySelector('.menu-cart');
-carrito.addEventListener("click", ()=>{
+botonCarrito.addEventListener("click", ()=>{
   menuCarrito.style.right = '0';
 })
 
@@ -22,5 +21,4 @@ carrito.addEventListener("click", ()=>{
 const iconoCerrar = document.querySelector("#cerrar")
 iconoCerrar.addEventListener("click",()=>{
   menuCarrito.style.right = '-100%';
-
 })
