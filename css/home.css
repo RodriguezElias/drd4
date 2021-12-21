@@ -361,7 +361,7 @@ margin-bottom:50px;
   line-height: 20px;
  
 }
-.text-tour::after {
+/* .text-tour::after {
   content: "";
   display: block;
   margin: 50px;
@@ -370,7 +370,7 @@ margin-bottom:50px;
   height: 2px;
   background: var(--color1);
   margin-bottom: var(--espacios-contenido);
-}
+} */
 .contenedor-items {
   display: flex;
   justify-content: center;

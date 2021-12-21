@@ -35,7 +35,7 @@
             "provincia": "Entre Ríos",
             "region": "Litoral",
             "imagen": "https://media.viajando.travel/p/d4a9447be27dc91258de44e962c944bf/adjuntos/255/imagenes/000/301/0000301651/entre-riosjpg.jpg?0000-00-00-00-00-00",
-            "descripcion": "Visita guiada por este monumento histórico, duración 1-2 horas",
+            "descripcion": "La visita guiada comienza en la capilla del palacio, donde la familia de Urquiza asistía a misa. El recorrido continúa por el patio trasero de la propiedad, donde destacan los bustos de Alejandro Magno, Julio César, Hernán Cortéz y Napoleón Bonaparte, entre otras figuras.",
             "precio": 1500,
             "stock": 8
         },
@@ -65,7 +65,7 @@
             "provincia": "Tucumán",
             "region": "Norte",
             "imagen": "https:/dynamic-media-cdn.tripadvisor.com/media/photo-o/17/69/12/c6/photo2jpg.jpg?w=1400&h=-1&s=1",
-            "descripcion": "Recorrido de día completo por Tafí del Valle y las ruinas de Quilmes desde Tucumán.",
+            "descripcion": "Recorrido de día completo por Tafí del Valle y las ruinas de Quilmes desde Tucumán. En este sendero interpretativo el visitante podrá observar la transformación paulatina de la naturaleza de una ambiente de cultivos a un bosque secundario.",
             "precio": 9850,
             "stock": 5
         },
@@ -75,7 +75,7 @@
             "provincia": "Salta",
             "region": "Norte",
             "imagen": "https://www.clarin.com/img/2018/09/10/tren-a-las-nubes-ramiro___Sk_6OHE_Q_720x0__1.jpg",
-            "descripcion": "Podrás admirar Los Andes argentinos y acceder a los increíbles vistas panorámicas de Puna",
+            "descripcion": "Este tour nos lleva a los lugares más lindos de la puerta de los Andes, nos encontramos en la estación de Trenes de Salta y dejamos la ciudad para ir atravesando Campo Quijano por la ruta 51, una experiencia que combina un camino lleno de paisajes mixtos de montañas y Puna.",
             "precio": 7750,
             "stock": 3
         },
@@ -116,7 +116,7 @@
             "provincia": "La Pampa",
             "region": "Patagonia",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/18/4a/13/atardecer-en-el-parque.jpg?w=2000&h=-1&s=1",
-            "descripcion": "Visita guiada de 2-3 horas. Disfrute hermosos Atardeceres, lindo lugar para avistaje de aves, hacer picnic y disfrutar en familia.",
+            "descripcion": "La Laguna La Arocena es un espejo de agua de aproximadamente 150 hectáreas de superficie​ y cuatro metros de profundidad media. Visita guiada de 2-3 horas. Disfrute hermosos atardeceres, lindo lugar para avistaje de aves, hacer picnic y disfrutar en familia.",
             "precio": 3500,
             "stock": 6
         },
@@ -146,7 +146,7 @@
             "provincia": "Tierra del Fuego",
             "region": "Patagonia",
             "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/24/f9/76/beagle-channel.jpg?w=2200&h=-1&s=1",
-            "descripcion": "Comenzamos la navegación saliendo desde el Muelle Turístico de nuestra ciudad, en dirección al Canal Beagle, disfrutando a medida que nos alejamos, de la vista panorámica de la costa de Ushuaia, divisando los edificios más importantes, Museo Marítimo (antiguo presidio), Museo del Fin del Mundo, el área industrial, y los montes Olivia y Cinco Hermanos.",
+            "descripcion": "Comenzamos la navegación saliendo desde el Muelle Turístico de nuestra ciudad, en dirección al Canal Beagle, disfrutando a medida que nos alejamos, de la vista panorámica de la costa de Ushuaia, divisando los edificios más importantes, Museo Marítimo (antiguo presidio), Museo del Fin del Mundo y los montes Olivia y Cinco Hermanos.",
             "precio": 13000,
             "stock": 2
         }
