@@ -50,7 +50,7 @@ header {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   position: fixed;
   z-index: 2;
- /*  color: aliceblue; */
+ 
 }
 .contenedor-nav {
   display: flex;
@@ -60,8 +60,7 @@ header {
   align-items: center;
   height: inherit;
 }
-.contenedor-logo {
-}
+
 .contenedor-logo img {
   width: 180px;
   height: 180px;
@@ -195,23 +194,25 @@ video {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 19px;
   background-color: rgb(145, 212, 82);
-  width: 205px;
+  width: 180px;
   margin-left: 5px;
   margin-right: 5px;
-  color: rgb(0, 0, 0);
+  color: white;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.5s;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .filter:hover{
   background-color: rgb(131, 182, 84);
 }
 
-/* TOURS */
-.tours-info {
-
-}
 .text-tour {
   margin: 30px 0px;
-  
+ 
 }
 .text-tour::after {
   content: "";
