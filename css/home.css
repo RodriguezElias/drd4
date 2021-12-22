@@ -213,6 +213,7 @@ video {
   margin-top: 20px;
   box-shadow: var(--shadow);
   transition: box-shadow 0.5s;
+  
 }
 .imagen-carrito {
   width: 60%;
@@ -285,6 +286,7 @@ color: #101010;
 .boton-reservar:hover {
   background-color: #1d63cc;
 
+
 }
 /* Main */
 .contenedor-principal {
@@ -354,11 +356,14 @@ color: #101010;
 /* TOURS */
 .tours-info {
 margin-bottom:50px;
+letter-spacing: 1px;
+color: rgb(53, 50, 50);
 }
 
 .text-tour {
   margin: 30px 0px;
   line-height: 20px;
+
  
 }
 /* .text-tour::after {
@@ -640,12 +645,17 @@ margin-bottom:50px;
   box-shadow: 1px 1px 30px 0px #449de6;
 }
 
+#nosotros{
+  letter-spacing: 1.5px;
+  color: rgb(73, 71, 71);
+}
+
 /*------------------------*/
 /* footer*/
 footer {
   width: 100%;
   margin-top: 40px;
-  background: rgb(138, 213, 243);
+  background: rgb(216, 206, 102);
   color: rgb(104, 100, 100);
 }
 .container-footer-all {
