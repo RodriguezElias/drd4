@@ -76,6 +76,7 @@ let filtros = document.querySelectorAll(".filter");
 filtros.forEach((item) => {
   item.addEventListener("click", (e) => {
     filtrarDatos(e.target.value, items);
+    agregarReservar();
   });
 });
 
